@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Wars</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/335/original/Rebel_Alliance_logo.svg.png?1686597334"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Playfair:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html,
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+
+      main {
+        flex: 1;
+      }
+
+      footer {
+        flex-shrink: 0;
+        background-color: white;
+        color: black;
+        margin: 0;
+        padding: 40px 30px 50px 30px;
+        font-family: "Crimson Text", serif;
+        flex-shrink: 0;
+      }
+      body {
+        background-color: black;
+        color: #fcc300;
+        margin: 0;
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/453/original/stars.gif?1686657220");
+        background-repeat: repeat;
+        display: flex;
+        flex-direction: column;
+      }
+      .header-container {
+        background: transparent;
+        text-align: center;
+        font-style: italic;
+      }
+      .menu {
+        text-align: center;
+        margin: 0;
+        font-family: "Playfair", serif;
+        list-style-type: none;
+      }
+
+      .main-menu {
+        margin-bottom: 50px;
+        margin-top: 0;
+        background-color: white;
+        color: black;
+        padding: 40px 30px 50px 30px;
+        display: flex;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .main-menu {
+          flex-direction: column;
+        }
+      }
+      .menu-item {
+        display: flex;
+        padding: 0;
+      }
+
+      .main-menu li {
+        display: inline;
+        padding: 10px 0px;
+        flex: 1 1 auto;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #3e73ad;
+      }
+      h3 {
+        text-align: center;
+        font-family: "Alfa Slab One", cursive;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        letter-spacing: 0.2rem;
+      }
+
+      p {
+        text-align: center;
+        font-family: "Playfair", serif;
+        line-height: 2em;
+      }
+      .main-content {
+        text-align: center;
+        font-family: "Playfair", serif;
+        line-height: 2em;
+        font-size: 18px;
+      }
+      button {
+        padding: 15px 20px;
+        font-family: "Alfa Slab One", cursive;
+        display: block;
+        margin: 0 auto;
+        border: transparent;
+        border-radius: 5px;
+        margin-top: 60px;
+        margin-bottom: 90px;
+        transition: all 200ms ease-in-out;
+        letter-spacing: 0.2rem;
+      }
+      button:hover {
+        background: #fcc300;
+        color: black;
+        cursor: pointer;
+      }
+      a {
+        text-decoration: none;
+      }
+      .footer {
+        background-color: white;
+        color: black;
+        margin: 0;
+        padding: 40px 30px 50px 30px;
+        font-family: "Crimson Text", serif;
+        flex-shrink: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <ul class="main-menu">
+          <li>
+            <ul class="menu-item">
+              <li>
+                <a
+                  href="https://www.primevideo.com/dp/amzn1.dv.gti.0eb7db5b-0345-f88d-2344-2c3ecebc0080?autoplay=0&ref_=atv_cf_strg_wb"
+                  target="_blank"
+                  >Episode I</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.primevideo.com/dp/amzn1.dv.gti.68b7db5e-5dc1-ff1c-b610-97c3a0d24a28?autoplay=0&ref_=atv_cf_strg_wb"
+                  target="_blank"
+                  >Episode II</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.primevideo.com/dp/amzn1.dv.gti.a0b7e495-c0dc-60b4-0347-689e53b0d615?autoplay=0&ref_=atv_cf_strg_wb"
+                  target="_blank"
+                  >Episode III</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <ul class="menu-item">
+              <li>
+                <a
+                  href="https://www.primevideo.com/dp/amzn1.dv.gti.48b5d015-336c-d06c-9b32-0cd0112ddba5?autoplay=0&ref_=atv_cf_strg_wb"
+                  target="_blank"
+                  >Episode IV</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.primevideo.com/dp/amzn1.dv.gti.00b7e49f-aa16-f272-fc0d-6d45558dad78?autoplay=0&ref_=atv_cf_strg_wb"
+                  target="_blank"
+                  >Episode V</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.primevideo.com/dp/amzn1.dv.gti.9ab7e4aa-b808-9d2f-260b-6b14c6c39a2c?autoplay=0&ref_=atv_cf_strg_wb"
+                  target="_blank"
+                  >Episode VI</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <ul class="menu-item">
+              <li>
+                <a
+                  href="https://www.primevideo.com/dp/amzn1.dv.gti.06b7e31e-c5ee-8d67-b28a-68e0f14061c8?autoplay=0&ref_=atv_cf_strg_wb"
+                  target="_blank"
+                  >Episode VII</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.primevideo.com/dp/amzn1.dv.gti.aab834b0-57c0-6520-3247-21f326c1d043?autoplay=0&ref_=atv_cf_strg_wb"
+                  target="_blank"
+                  >Episode VIII</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.primevideo.com/dp/amzn1.dv.gti.5ab8d715-a5dc-a437-2fdd-66aedfb5e67e?autoplay=0&ref_=atv_cf_strg_wb"
+                  target="_blank"
+                  >Episode IX</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="header-container">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/085/326/original/602175e40ad3230004b93c20.png?1686595135"
+          alt="Star Wars logo"
+          width="auto"
+          height="150px"
+        />
+      </div>
+    </header>
+
+    <main>
+      <div class="content">
+        <h3>MAY THE FORCE BE WITH YOU</h3>
+        <p class="main-content">
+          In a galaxy far, far away,<br />
+          where legends were born and destinies were entwined, <br />the balance
+          between darkness and light hung in the balance.
+          <br />
+          <br />
+          The eternal struggle of good versus evil played out on a cosmic
+          scale,<br />
+          leaving an indelible mark on the annals of time <br />and etching the
+          names of heroes and villains into the stars themselves. <br />
+          <br />
+          And so, the tale continues, echoing across the vast EXPANSE of the
+          GALAXY,<br />
+          reaching out to touch the hearts of those who dare to dream and
+          believe in the power of the Force.
+        </p>
+      </div>
+      <div>
+        <button class="watchButton">WATCH NOW</button>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Coded by <span style="color: #3e73ad">Ana Cavalcanti</span> using HTML,
+        CSS, and JavaScript for the
+        <a href="https://www.shecodes.io/" span style="color: #3e73ad"
+          >SheCodes</a
+        >
+        Basics 🎬 Epic Movie Challenge.
+      </p>
+    </footer>
+    <script>
+      function movieSelector() {
+        let starWars = prompt(
+          "Which Star Wars movie you would like to watch? Please choose a number from 1 (to choose Episode I, for example) up to 9."
+        );
+        if (starWars === "1") {
+          window.location.href =
+            "https://www.primevideo.com/dp/amzn1.dv.gti.0eb7db5b-0345-f88d-2344-2c3ecebc0080?autoplay=0&ref_=atv_cf_strg_wb";
+        }
+        if (starWars === "2") {
+          window.location.href =
+            "https://www.primevideo.com/dp/amzn1.dv.gti.68b7db5e-5dc1-ff1c-b610-97c3a0d24a28?autoplay=0&ref_=atv_cf_strg_wb";
+        }
+        if (starWars === "3") {
+          window.location.href =
+            "https://www.primevideo.com/dp/amzn1.dv.gti.a0b7e495-c0dc-60b4-0347-689e53b0d615?autoplay=0&ref_=atv_cf_strg_wb";
+        }
+        if (starWars === "4") {
+          window.location.href =
+            "https://www.primevideo.com/dp/amzn1.dv.gti.48b5d015-336c-d06c-9b32-0cd0112ddba5?autoplay=0&ref_=atv_cf_strg_wb";
+        }
+        if (starWars === "5") {
+          window.location.href =
+            "https://www.primevideo.com/dp/amzn1.dv.gti.00b7e49f-aa16-f272-fc0d-6d45558dad78?autoplay=0&ref_=atv_cf_strg_wb";
+        }
+        if (starWars === "6") {
+          window.location.href =
+            "https://www.primevideo.com/dp/amzn1.dv.gti.9ab7e4aa-b808-9d2f-260b-6b14c6c39a2c?autoplay=0&ref_=atv_cf_strg_wb";
+        }
+        if (starWars === "7") {
+          window.location.href =
+            "https://www.primevideo.com/dp/amzn1.dv.gti.06b7e31e-c5ee-8d67-b28a-68e0f14061c8?autoplay=0&ref_=atv_cf_strg_wb";
+        }
+        if (starWars === "8") {
+          window.location.href =
+            "https://www.primevideo.com/dp/amzn1.dv.gti.aab834b0-57c0-6520-3247-21f326c1d043?autoplay=0&ref_=atv_cf_strg_wb";
+        }
+        if (starWars === "9") {
+          window.location.href =
+            "https://www.primevideo.com/dp/amzn1.dv.gti.5ab8d715-a5dc-a437-2fdd-66aedfb5e67e?autoplay=0&ref_=atv_cf_strg_wb";
+        }
+      }
+      let watchButton = document.querySelector(".watchButton");
+      watchButton.addEventListener("click", movieSelector);
+    </script>
+  </body>
+</html>
